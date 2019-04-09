@@ -16,7 +16,7 @@ def case_0(instead):
         chosen1=random.randint(0,n-1)
         chosen2=random.randint(0,n-1)
         while chosen2==chosen1:
-            chosen2=random,randint(0,n-1)
+            chosen2=random.randint(0,n-1)
         result  = random.random()
         if result<=1/3:
             instead[chosen1]+=d*m
@@ -34,7 +34,7 @@ def case_1(instead):
         chosen1=random.randint(0,n-1)
         chosen2=random.randint(0,n-1)
         while chosen2==chosen1:
-            chosen2=random,randint(0,n-1)
+            chosen2=random.randint(0,n-1)
         result  = random.random()
         if result<=1/3:
             instead[chosen1]+=d*m
